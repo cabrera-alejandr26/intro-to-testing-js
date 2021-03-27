@@ -4,6 +4,13 @@ function helloWorld() {
 }
 
 //sayHello function
-function sayHello(){
- return "At this moment it can be any string because it is not defined"
+function sayHello(input) {
+    var greeting = "Hello, " + input + "!";
+    if(input === true || input === false){
+        return "Hello, World!";
+    }
+    else{
+        return greeting;
+    }
 }
+s
